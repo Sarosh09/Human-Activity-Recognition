@@ -27,6 +27,7 @@ Few Key points about the columns:
 * For accelerometer we also have "total" and "variance of total" feature for the 4 sensors. But for "belt", "variance of total" is given as "var_total_accel_belt", for the other sensors it is given as ("var_accel_arm","var_accel_dumbbell","var_accel_forearm"). So I am considering the "belt" one as a typo. (4 sensor * 2 feature = 8 features)
 * There is another thing to note here. For "belt" Euler angles feature skewness is given as "skewness_roll_belt", "skewness_roll_belt.1" and "skewness_yaw_belt". I am also considering "skewness_roll_belt.1" as a typo and considering it as "skewness_pitch_belt".  
 
+This machine learning algorithm is applied to predict the 20 test cases given in the test data set.
 ### Position of the Sensors
 ![](https://github.com/Sarosh09/Human-Activity-Recognition/blob/master/sensors_pos.png)
 ## reference  
